@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(book.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 50px;
+    font-size: 30px;
+    width: 225px;
+}
+
+.box img {
+    width: 100%;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+input {
+    background-color: blue;
+    height: 30px;
+}
+
+#dlt {
+    background-color: red;
+    width: 225px;
+    border: none;
+}
